@@ -127,6 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
     faders.forEach(fader => {
         appearOnScroll.observe(fader);
     });
+    
 
     // Ensure no parallax effect on the welcome photo
     // Removed the parallax code completely

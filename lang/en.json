@@ -1,0 +1,132 @@
+{
+  "_comment": "English translations for the ePortfolio",
+
+  "_comment1": "Tabs titles",
+  "eng_course_tab": "Engineering Course",
+  "international_mobility": "International Mobility",
+  "sustainability_civic_engagement": "Civic Engagement",
+  "sport_activities": "Sport & Activities",
+  "career_development": "Career Development",
+
+  "_comment2": "Welcome Section",
+  "welcome": "Welcome !",
+  "intro": [
+    "Hello! I'm <strong>Nael Fontaine</strong>, a computer engineering student at <a href=\"https://www.enseeiht.fr\" target=\"_blank\">ENSEEIHT</a> in Toulouse.",
+    "Welcome to my ePortfolio, where you can learn more about my academic journey, projects, and professional experiences."
+  ],
+  "ecv_button": "English CV",
+  "fcv_button": "French CV",
+  "explore": "Explore My ePortfolio",
+  "eng_course": "Engineering Course",
+
+  "_comment3": "Engineering Course Section",
+  "eng_course_description": [
+    "I am currently a second-year student enrolled in the Software Systems program within the Computer Science Department at ENSEEIHT.",
+    "The curriculum is structured into semesters, each comprising a set of UEs (teaching units) that I will list below.",
+    "Check out the detailed curriculum on the <a href=\"https://www.enseeiht.fr/en/training/full-time-engineering-program/sn/program-sn.html\" target=\"_blank\">ENSEEIHT website</a>.",
+    "This page will be updated each semester to reflect my academic progress."
+  ],
+  "semester1": "Semester 1 (Semester 5 after high school)",
+  "semester2": "Semester 2 (Semester 6 after high school)",
+  "semester3": "Semester 3 (Semester 7 after high school) - Software Systems program",
+
+  "semester1_courses": [
+    "<li><strong>Soft & Human Skills(English, Spanish, Sport, Careers and Management)</strong></li>",
+    "<li><strong>Integration and Applications - Probabilities</strong> </li>",
+    "<li><strong>Common Foundation in Computer Science</strong></li>",
+    "<li><strong>Numerical Analysis and Statistics</strong></li>",
+    "<li><strong>Signal Processing and Control Systems</strong></li>",
+    "<li><strong>Modeling and Architecture</strong></li>"
+  ],
+
+  "semester2_courses": [
+    "<li><strong>Soft & Human Skills(English, Spanish, Sport, Careers and Management : leadership)</strong></li>",
+    "<li><strong>Telecommunications</strong> </li>",
+    "<li><strong>Networks</strong></li>",
+    "<li><strong>Scientific Computing and Data Analysis</strong></li>",
+    "<li><strong>Object-Oriented Technology</strong></li>",
+    "<li><strong>Architecture and Systems</strong></li>"
+  ],
+
+  "semester3_courses": [
+    "<li><strong>Soft & Human Skills(English, Spanish, Sport, Careers and Management)</strong></li>",
+    "<li><strong>Functional Programming</strong></li>",
+    "<li><strong>Optimization and Operational research</strong> </li>",
+    "<li><strong>Concurrent and Communicating Systems</strong></li>",
+    "<li><strong>Mathematical tools for computer science (proofs) and Graphs</strong></li>",
+    "<li><strong>Software and Systems Engineering</strong></li>"
+  ],
+
+  "_comment4": "International Mobility Section",
+  "international_mobility_content": [
+    "<h3>Universidad Nacional de Colombia in Bogotá</h3>",
+    "<p>For the first semester of 2026, I will go on an exchange program to Bogotá, Colombia, to study at the <a href=\"https://unal.edu.co/en/\" target=\"_blank\">Universidad Nacional de Colombia</a>.",
+    "Studying there will not only allow me to improve my Spanish but also discover a totally new culture.",
+    "This university plays an important role in the region and could be a major asset if I participate in joint projects in the future.",
+    "This international experience would strengthen my linguistic and intercultural skills while expanding my professional network.</p>"
+  ],
+
+  "_comment5": "Sustainability & Civic Engagement Section",
+  "event_net7": [
+    "<h3>Participation in events for the net7 association</h3>",
+    "<p><strong><a href=\"https://net7.dev/\" target=\"_blank\">net7</a></strong> is the school’s computer science student association that develops and maintains services for students and clubs.",
+    "As a member of net7, I contribute to the development and maintenance of these services and I also participate in 2 supported events:</p>",
+    "<p><strong><a href=\"https://thcon.fr/\" target=\"_blank\">The THCON</a></strong> (Toulouse Hacking CONvention) is a ",
+    "cybersecurity conference that brings together hobbyists, professionals and researchers.</p>",
+    "<p><strong><a href=\"https://capitoledulibre.org/\" target=\"_blank\">The CTL</a></strong> (Capitole du Libre) is an event which promotes free software. ",
+    "We helped people on an install party to install Linux on their computer. </p>"
+  ],
+  "climbing_wall_oppening": [
+    "<h3>Opening the INP Group's Climbing Wall</h3>",
+    "<p>  Thanks to the SAE (Artificial Climbing Structure) initiator certification I obtained last year,",
+    " I open and supervise regularly the climbing wall at the INP group's gymnasium during my free time.</p>"
+  ],
+
+  "_comment6": "Sport & Other Activities Section",
+  "climbing_section": [
+    "<h3>Climbing</h3>",
+    "<p>Climbing has been a significant passion of mine</p>",
+    "<p>During my first year at ENSEEIHT, I completed a training to become an SAE Initiator (Artificial Climbing Structure Initiator).",
+    " This certification allows me to open and supervise the climbing wall at the INP group's gymnasium during my free time.",
+    " This enables students to climb independently after classes.</p>"
+  ],
+  "gaming_section": [
+    "<h3>Passion for Computer Science and Video Games</h3>",
+    "<p>Beyond my academic pursuits, I really enjoy computer science and video games. ",
+    " During the summer of 2024, I participated in the GMTK 2024 Game Jam, where I collaborated with some friends to develop a video game ",
+    " within 4 days. This experience allowed me to apply my programming skills creatively under tight deadlines</p>"
+  ],
+  "play_cutout": "Play CutOut",
+  "impro_section": [
+    "<h3>Improvisational Theater</h3>",
+    "<p> I am actively involved in \"les !mprobables\", the improvisational theater club of ENSEEIHT, which has been an incredible experience for me.",
+    " I am responsible for managing the club's budget and organizing events.",
+    " Participating in improvisational theater has also greatly enhanced my communication skills, spontaneity, and ability to work as part of a team and in front of an audience.</p>"
+  ],
+
+  "_comment7": "Career Development Section",
+  "career_intro": [
+    "<p>Welcome to my Career Development section!</p>",
+    "<p>Here you will find my professional experiences such as internships.",
+    "Feel free to view my CVs and connect with me on LinkedIn for more information.</p>"
+  ],
+  "internships_intro": [
+    "<h3>Internships</h3>",
+    "<p>This section will include all my internship experiences.</p>"
+  ],
+  "internship_onera": [
+    "<h4>Internship at ONERA (June - July 2025)</h4>",
+    "<p>During my first year at the <strong>ENSEEIHT</strong> I completed an internship at <a href=\"https://www.onera.fr/en\" target=\"_blank\">ONERA</a>, a national aerospace research center.",
+    "I worked on evaluating different formulas in the domain of real-time networks for embedded systems.",
+    " I learned a lot in the field of research. </p>"
+  ],
+  "internship_irit": [
+    "<h4>Internship at IRIT (May - June 2024)</h4>",
+    "<p>During my time at the <strong>Prépa des INP de Toulouse</strong> before entering ENSEEIHT,",
+    "I completed an internship at <a href=\"https://www.irit.fr/en\" target=\"_blank\">IRIT</a>, the institute of research in computer science of Toulouse. ",
+    "I worked on the development of an interactive game to aid visually impaired children in learning Braille.</p>",
+    " <a href=\"rapport.pdf\" class=\"btn\" download>Download Internship Report</a>"
+  ]
+
+
+}

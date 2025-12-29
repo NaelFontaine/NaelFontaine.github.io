@@ -13,7 +13,11 @@
         <!-- Modified Header -->
         <nav>
             <div class="nav-container">
-                
+
+                <a class="language_button" onclick="setLanguage('en')">EN</a>
+                <p>|</p>
+                <a class="language_button" onclick="setLanguage('fr')">FR</a>
+
                 <!-- Icône de maison -->
                 <a href="#" class="logo tab-link" data-tab="welcome">
                 <i class="fas fa-home"></i>
@@ -25,17 +29,18 @@
                     <span></span>
                 </div>
                 <ul id="navMenu">
-                    <li><a href="#" class="tab-link" data-tab="engineering">Engineering Course</a></li>
-                    <li><a href="#" class="tab-link" data-tab="international">International Mobility</a></li>
-                    <li><a href="#" class="tab-link" data-tab="sustainability">Sustainability & Civic Engagement</a></li>
-                    <li><a href="#" class="tab-link" data-tab="activities">Sport & Activities</a></li>
-                    <li><a href="#" class="tab-link" data-tab="career">Career Development</a></li>
+                    <li><a href="#" class="tab-link" data-tab="engineering" data-i18n="eng_course_tab"></a></li>
+                    <li><a href="#" class="tab-link" data-tab="international" data-i18n="international_mobility"></a></li>
+                    <li><a href="#" class="tab-link" data-tab="sustainability" data-i18n="sustainability_civic_engagement"></a></li>
+                    <li><a href="#" class="tab-link" data-tab="activities" data-i18n="sport_activities"></a></li>
+                    <li><a href="#" class="tab-link" data-tab="career" data-i18n="career_development"></a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
+            
             <!-- Welcome Section -->
             <section id="welcome" class="tab-content active fade-in">
                 <div class="welcome-container">
@@ -43,33 +48,32 @@
                         <img src="img/welcome_photo.jpg" alt="Nael Fontaine Photo">
                     </div>
                     <div class="welcome-text">
-                        <h2>Welcome</h2>
-                        <p>Hello! I'm <strong>Nael Fontaine</strong>, a computer engineering student at <a href="https://www.enseeiht.fr" target="_blank">ENSEEIHT</a> in Toulouse. 
-                            Welcome to my ePortfolio, where you can learn more about my academic journey, projects, and professional experiences.</p>
+                        <h2 data-i18n="welcome"></h2>
+                        <p data-i18n="intro"></p>
                         <!-- Updated buttons -->
                         <div class="welcome-links">
                             <a href="https://www.linkedin.com/in/nael-fontaine" class="btn" target="_blank">LinkedIn</a>
-                            <a href="english-cv.pdf" class="btn" download>English CV</a>
-                            <a href="french-cv.pdf" class="btn" download>French CV</a>
+                            <a href="english-cv.pdf" class="btn" download data-i18n="ecv_button"></a>
+                            <a href="french-cv.pdf" class="btn" download data-i18n="fcv_button"></a>
                         </div>
                     </div>
                 </div>
                 <!-- Additional Content -->
                 <div class="welcome-additional">
                     <!-- Rearranged Quick Links -->
-                    <h3>Explore My ePortfolio</h3>
+                    <h3 data-i18n="explore"></h3>
                     <div class="quick-links-grid">
                         <a href="#" class="quick-link tab-link" data-tab="engineering">
                             <div class="quick-link-icon">🛠️</div>
-                            <div class="quick-link-text">Engineering Course</div>
+                            <div class="quick-link-text" data-i18n="eng_course"></div>
                         </a>
                         <a href="#" class="quick-link tab-link" data-tab="activities">
                             <div class="quick-link-icon">🏃‍♂️</div>
-                            <div class="quick-link-text">Sport & Activities</div>
+                            <div class="quick-link-text" data-i18n="sport_activities"></div>
                         </a>
                         <a href="#" class="quick-link tab-link" data-tab="career">
                             <div class="quick-link-icon">🎯</div>
-                            <div class="quick-link-text">Career Development</div>
+                            <div class="quick-link-text" data-i18n="career_development"></div>
                         </a>
                     </div>
                 </div>
@@ -79,90 +83,46 @@
         <section id="engineering" class="tab-content fade-in">
             <div class="spinner"></div>
             <div class="content">
-                <h2>Engineering Course</h2>
-                <p>I am currently a second-year student enrolled in the Software Systems program within the Computer Science Department at ENSEEIHT.
-                     The curriculum is structured into semesters, each comprising a set of UEs (teaching units) that I will list below.
-                     Check out the detailed curriculum on the <a href="https://www.enseeiht.fr/fr/formation/formation-ingenieur/departement-sn.html" target="_blank">ENSEEIHT website</a>.
-                     This page will be updated each semester to reflect my academic progress.</p>
+                <h2 data-i18n="eng_course"></h2>
+                <p data-i18n="eng_course_description"></p>
                 
                 <!-- Contenu du Semestre 1 -->
-                <h3>Semester 1 (Semester 5 after high school)</h3>
-                <ul class="course-list">
-                    <li><strong>Soft & Human Skills(English, Spanish, Sport, Careers and Management)</strong></li>
-                    <li><strong>Integration and Applications - Probabilities</strong> </li>
-                    <li><strong>Common Foundation in Computer Science</strong></li>
-                    <li><strong>Numerical Analysis and Statistics</strong></li>
-                    <li><strong>Signal Processing and Control Systems</strong></li>
-                    <li><strong>Modeling and Architecture</strong></li>
-                </ul>
+                <h3 data-i18n="semester1"></h3>
+                <ul class="course-list" data-i18n="semester1_courses"></ul>
 
                 <!-- Contenu du Semestre 2 -->
-                <h3>Semester 2 (Semester 6 after high school)</h3>
-                <ul class="course-list">
-                    <li><strong>Soft & Human Skills(English, Spanish, Sport, Careers and Management : leadership)</strong></li>
-                    <li><strong>Signal Processing – Telecommunications</strong> </li>
-                    <li><strong>Networks</strong></li>
-                    <li><strong>Scientific Computing – Machine Learning</strong></li>
-                    <li><strong>Object-Oriented Technology</strong></li>
-                    <li><strong>Computer Architecture – Systems</strong></li>
-                </ul>
+                <h3 data-i18n="semester2"></h3>
+                <ul class="course-list" data-i18n="semester2_courses"></ul>
 
                 <!-- Contenu du Semestre 3 -->
-                <h3>Semester 3 (Semester 7 after high school) - Software Systems program</h3>
-                <ul class="course-list">
-                    <li><strong>Soft & Human Skills(English, Spanish, Sport, Careers and Management)</strong></li>
-                    <li><strong>Concurrent and Distributed Systems</strong></li>
-                    <li><strong>Automata and Language Theory, Graph Theory</strong> </li>
-                    <li><strong>Software and Systems Engineering</strong></li>
-                    <li><strong>Optimization and Operations Research</strong></li>
-                    <li><strong>Functional Programming</strong></li>
-                </ul>
-
+                <h3 data-i18n="semester3"></h3>
+                <ul class="course-list" data-i18n="semester3_courses"></ul>
 
             </div>
         </section>
 
         <!-- International Mobility Section -->
         <section id="international" class="tab-content fade-in">
-            <div class="spinner"></div>
             <div class="content">
-                <h2>International Mobility</h2>
+                <h2 data-i18n="international_mobility"></h2>
 
-                <!-- Universidad de los Andes or Universidad Nacional de Colombia in Bogota -->
-                <div class="mobility-section">
-                    <h3>Universidad Nacional de Colombia in Bogotá</h3>
-                    <p> For the first semester of 2026, I will go on an exchange program to Bogotá, Colombia, to study at the <a href="https://unal.edu.co/en/" target="_blank">Universidad Nacional de Colombia</a>.
-                        Studying there will not only allow me to improve my Spanish but also discover a totally new culture. 
-                        This university plays an important role in the region and could be a major asset if I participate in joint projects in the future. 
-                        This international experience would strengthen my linguistic and intercultural skills while expanding my professional network.</p>
+                <!-- Universidad Nacional de Colombia in Bogota -->
+                <div class="mobility-section" data-i18n="international_mobility_content">
                 </div>
-            </div>
         </section>
 
          <!-- Sustainability & Civic Engagement Section -->
          <section id="sustainability" class="tab-content fade-in">
             <div class="spinner"></div>
             <div class="content">
-                <h2>Sustainability & Civic Engagement</h2>
+                <h2 data-i18n="sustainability_civic_engagement"></h2>
 
                 <!-- Participation in the "Cordée de la réussite" Project -->
-                <div class="engagement-section">
-                    <h3>Participation in events for the association net7</h3>
-                    <p> <strong><a href="https://net7.dev/" target="_blank">net7</a></strong> is the school’s computer science student association
-                         that develops and maintains services for students and clubs. 
-                        As a member of net7, I contribute to the development and maintenance of these services and I also participate in 2 supported events:</p>
-                    <p><strong><a href="https://thcon.fr/" target="_blank">The THCON</a></strong> (Toulouse Hacking CONvention) is a 
-                        cybersecurity conference that brings together hobbyists, professionals and researchers.</p>
-                    <p><strong><a href="https://capitoledulibre.org/" target="_blank">The CTL</a></strong> (Capitole du Libre) is an event which promotes free software. 
-                        We helped people on an install party to install Linux on their computer. </p>
+                <div class="engagement-section" data-i18n="event_net7">
                 </div>
 
                 <!-- Engagement in Opening the Climbing Wall -->
-                <div class="engagement-section">
-                    <h3>Opening the INP Group's Climbing Wall</h3>
-                    <p>  Thanks to the SAE (Artificial Climbing Structure) initiator certification I obtained last year,
-                         I open and supervise regularly the climbing wall at the INP group's gymnasium during my free time.
-                         This allows students to climb independently after classes.</p>
+                <div class="engagement-section" data-i18n="climbing_wall_oppening">
                 </div>
             </div>
         </section>
@@ -171,16 +131,11 @@
         <section id="activities" class="tab-content fade-in">
             <div class="spinner"></div>
             <div class="content">
-                <h2>Sport & Other Activities</h2>
+                <h2 data-i18n="sport_activities"></h2>
 
                 <!-- Climbing Section -->
                 <div class="activity-section">
-                    <h3>Climbing</h3>
-                    <p>Climbing has been a significant passion of mine</p>
-                    <p>During my first year at ENSEEIHT, I completed a training to become an SAE Initiator (Artificial Climbing Structure Initiator).
-                         The SAE Initiator has the skills to teach climbing and organize its practice on artificial climbing structures.
-                         With this certification, I can open and supervise the climbing wall at the INP group's gymnasium during my free time, 
-                         allowing students to climb independently after classes.</p>
+                    <div data-i18n="climbing_section"></div>
                     <!-- Climbing Photos -->
                     <div class="activity-photos">
                         <img src="img/climbing1.jpg" alt="Climbing Photo 1">
@@ -190,28 +145,21 @@
 
                 <!-- New Section: Passion for Computer Science and Video Games -->
                 <div class="activity-section">
-                    <h3>Passion for Computer Science and Video Games</h3>
-                    <p>Beyond my academic pursuits, I really enjoy computer science and video games. 
-                        During the summer of 2024, I participated in the GMTK 2024 Game Jam, where I collaborated with some friends to develop a video game 
-                        in just four days using Unreal Engine 4.
-                        This experience was both challenging and rewarding, allowing me to apply my programming skills creatively under tight deadlines.</p>
-                    <p>The game we created is called "CutOut," and it's available to play online.</p>
-                    <!-- Game Image and Link -->
+                    <div data-i18n="gaming_section"></div>
                     <div class="activity-photos single">
                         <a href="https://cerrad-las-sopas.itch.io/cutout" target="_blank">
                             <img src="img/cutout.png" alt="CutOut Game Screenshot">
                         </a>
                     </div>
-                    <p><a href="https://cerrad-las-sopas.itch.io/cutout" target="_blank" class="btn">Play "CutOut"</a></p>
+                    <div class="center">
+                    <p><a href="https://cerrad-las-sopas.itch.io/cutout" target="_blank" class="btn" data-i18n="play_cutout"></a></p>
+                    </div>
                 </div>
 
                 <!-- Improvisational Theater Section -->
                 <div class="activity-section">
-                    <h3>Improvisational Theater</h3>
-                    <p> I am actively involved in "les !mprobables", the improvisational theater club of ENSEEIHT, which has been an incredible experience for me.
-                        I am responsible for managing the club's budget and organizing events.
-                        Engaging in improvisational theater has also greatly enhanced my creativity and quick-thinking abilities.
-                         It has taught me to collaborate effectively with others, embrace spontaneity, and communicate confidently in front of an audience.</p>
+                    <div data-i18n="impro_section"></div>
+                    
                     <!-- Theater Photo -->
                     <div class="activity-photos single">
                         <img src="img/impro.png" alt="Improvisational Theater Photo">
@@ -224,46 +172,27 @@
         <section id="career" class="tab-content fade-in">
             <div class="spinner"></div>
             <div class="content">
-                <h2>Career Development</h2>
-
-                <!-- Boutons de navigation dans la section (déplacés avant le contenu) -->
-                <div class="section-nav">
-                    <button class="section-nav-btn" data-target="internships">Internships</button>
-                    <button class="section-nav-btn" data-target="ppp">Personal Professional Projects</button>
-                </div>
+                <h2 data-i18n="career_development"></h2>
 
                 <!-- Texte d'introduction -->
-                <p>Welcome to my Career Development section!</p>
-                <p>Here you will find my professional experiences, internships, and personal professional projects.
-                     Feel free to view my CVs and connect with me on LinkedIn for more information.</p>
+                <div data-i18n="career_intro"></div>
 
                 <!-- Boutons pour les CV et LinkedIn -->
                 <div class="career-links">
-                    <a href="english-cv.pdf" class="btn" download>English CV</a>
-                    <a href="french-cv.pdf" class="btn" download>French CV</a>
+                    <a href="english-cv.pdf" class="btn" download data-i18n="ecv_button"></a>
+                    <a href="french-cv.pdf" class="btn" download data-i18n="fcv_button"></a>
                     <a href="https://www.linkedin.com/in/nael-fontaine" class="btn" target="_blank">LinkedIn</a>
                 </div>
 
                 <!-- Section Internships -->
                 <div id="internships" class="career-section">
-                    <h3>Internships</h3>
-                    <p>This section will include all my internship experiences.</p>
+                    <div data-i18n="internships_intro"></div>
 
                     <!-- Internship at ONERA -->
-                    <div class="internship-entry">
-                        <h4>Internship at ONERA (June - July 2025)</h4>
-                        <p>During my first year at the <strong>ENSEEIHT</strong> I completed an internship at <a href="https://www.onera.fr/en" target="_blank">ONERA</a>, a national aerospace research center.
-                             I worked on evaluating different formulas in the domain of real-time networks for embedded systems. I learned a lot in the field of research.</p>
-                    </div>
+                    <div class="internship-entry" data-i18n="internship_onera"></div>
 
                     <!-- Internship at IRIT -->
-                    <div class="internship-entry">
-                        <h4>Internship at IRIT (April - June 2024)</h4>
-                        <p>During my time at the <strong>Prépa des INP de Toulouse</strong> before entering ENSEEIHT,
-                             I completed an internship at <a href="https://www.irit.fr/en" target="_blank">IRIT</a> (Institute of Research in Computer Science of Toulouse). 
-                             I worked on the development of an interactive game to aid visually impaired children in learning Braille.</p>
-                        <a href="rapport.pdf" class="btn" download>Download Internship Report</a>
-                    </div>
+                    <div class="internship-entry" data-i18n="internship_irit"></div>
                 </div>
             </div>
             </div>
@@ -274,7 +203,6 @@
         <div class="footer-content">
             <p>2025  Nael Fontaine.
                 <span class="footer-contact">
-                    <a href="tel:0776692545">07 76 69 25 45</a> |
                     <a href="mailto:nael.fontaine@etu.toulouse-inp.fr">Email</a> |
                     <a href="https://www.linkedin.com/in/nael-fontaine" target="_blank">LinkedIn</a> |
                     <a href="https://github.com/NaelFontaine" target="_blank">GitHub</a>
@@ -284,6 +212,7 @@
     </footer>
 
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/i18n.js"></script>
 </body>
 </html>

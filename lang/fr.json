@@ -1,0 +1,129 @@
+{
+    "_comment": "French translations for the ePortfolio",
+
+    "_comment1": "Tabs titles",
+    "eng_course_tab": "Cours suivis",
+    "international_mobility": "Mobilité Internationale",
+    "sustainability_civic_engagement": "Engagement Citoyen",
+    "sport_activities": "Sports & Activités",
+    "career_development": "Expériences professionnelles",
+
+    "_comment2": "Welcome Section",
+    "welcome": "Bienvenue !",
+    "intro": [
+    "Bonjour ! Je suis <strong>Nael Fontaine</strong>, étudiant en informatique à l'<a href=\"https://www.enseeiht.fr\" target=\"_blank\">ENSEEIHT</a> à Toulouse.",
+    "Bienvenue sur mon ePortfolio, où vous pouvez en apprendre davantage sur mon parcours académique, mes projets et mes expériences professionnelles."
+    ],
+    "ecv_button": "CV Anglais",
+    "fcv_button": "CV Français",
+    "explore": "Explorez Mon ePortfolio",
+    "eng_course": "Mes études à l'N7",
+
+    "_comment3": "Engineering Course Section",
+    "eng_course_description": [
+        "Je suis actuellement en deuxième année du parcours Systèmes Logiciels du Département SN(Sciences du Numérique) de l'ENSEEIHT.",
+        "Le cursus est structuré en semestres, chacun comprenant un ensemble d'UE (unités d'enseignement) que je vais énumérer ci-dessous.",
+        "Consultez le programme détaillé sur le <a href=\"https://www.enseeiht.fr/fr/formation/formation-ingenieur/departement-sn.html\" target=\"_blank\">site de l'ENSEEIHT</a>.",
+        "Cette page sera mise à jour chaque semestre pour refléter ma progression académique."
+    ],
+    "semester1": "Semestre 1 (S5 après le bac)",
+    "semester2": "Semestre 2 (S6 après le bac)",
+    "semester3": "Semestre 3 (S7 après le bac) - parcours Systèmes Logiciels",
+
+    "semester1_courses": [
+        "<li><strong>Soft & Human Skills(Anglais, Espagnol, Sport, Carrières et Management)</strong></li>",
+        "<li><strong>Intégration et Applications - Probabilités</strong> </li>",
+        "<li><strong>Programmation Impérative</strong></li>",
+        "<li><strong>Analyse Numérique et Statistiques</strong></li>",
+        "<li><strong>Automatique et Analyse de données</strong></li>",
+        "<li><strong>Modélisation et Architecture</strong></li>"
+    ],
+
+    "semester2_courses": [
+        "<li><strong>Soft & Human Skills(Anglais, Espagnol, Sport, Carrières et Management : leadership)</strong></li>",
+        "<li><strong>Télécommunications et Traitement du signal</strong></li>",
+        "<li><strong>Réseaux</strong></li>",
+        "<li><strong>Calcul scientifique et Apprentissage</strong></li>",
+        "<li><strong>Technologie objet</strong></li>",
+        "<li><strong>Architecture et Systèmes</strong></li>"
+    ],
+
+    "semester3_courses": [
+        "<li><strong>Soft & Human Skills(Anglais, Espagnol, Sport, Carrières et Management)</strong></li>",
+        "<li><strong>Programmation Fonctionnelle</strong></li>",
+        "<li><strong> Théorie des Automates et des Langages</strong> </li>",
+        "<li><strong>Génie du logiciel et des systèmes</strong></li>",
+        "<li><strong>Optimisation et Recherche opérationnelle</strong></li>",
+        "<li><strong>Systèmes Concurrents et Communicants</strong></li>"
+    ],
+
+    "_comment4": "International Mobility Section",
+    "international_mobility_content": [
+        "<h3>Universidad Nacional de Colombia à Bogotá</h3>",
+        "<p>Pour le premier semestre de 2026, je partirai dans un programme d'échange à Bogotá, en Colombie, pour étudier à l'<a href=\"https://unal.edu.co/en/\" target=\"_blank\">Universidad Nacional de Colombia</a>.",
+        "Étudier là-bas me permettra non seulement d'améliorer mon espagnol mais aussi de découvrir une toute nouvelle culture.",
+        "Cette université joue un rôle important dans la région et pourrait être un atout majeur si je participe à des projets en amérique latine.",
+        "Cette expérience internationale renforcera mes compétences linguistiques et interculturelles tout en élargissant mon réseau professionnel.</p>"
+    ],
+
+    "_comment5": "Sustainability & Civic Engagement Section",
+    "event_net7": [
+        "<h3>Participation à des événements avec l'association net7</h3>",
+        "<p> <strong><a href=\"https://net7.dev/\" target=\"_blank\">net7</a></strong> est l'association informatique de l'école qui développe et maintient des services pour les étudiants et clubs, et d'autres encore.",
+        "En tant que membre de net7, je contribue au développement et à la maintenance de ces services et je participe également à 2 événements soutenus :</p>",
+        "<p><strong><a href=\"https://thcon.fr/\" target=\"_blank\">La THCON</a></strong> (Toulouse Hacking CONvention) est une conférence sur la cybersécurité qui réunit des passionnés, des professionnels et des chercheurs.</p>",
+        "<p><strong><a href=\"https://capitoledulibre.org/\" target=\"_blank\">Le CTL</a></strong> (Capitole du Libre) est un événement qui promeut les logiciels libres. Nous avons aidé des personnes lors d'une install party pour installer Linux sur leur ordinateur. </p>"
+    ],
+    "climbing_wall_oppening": [
+        "<h3>Ouverture de la salle d'escalade Groupe INP</h3>",
+        "<p> Grâce au diplome d'initiateur SAE (Structure Artificielle d'Escalade) que j'ai obtenue lors de ma première année à l'N7, ",
+        "j'ouvre et supervise régulièrement la salle d'escalade du gymnase du groupe INP pendant mon temps libre.",
+        "Cela permet aux étudiants et au personnel de pratiquer l'escalade dans un environnement sûr et encadré.</p>"
+    ],
+
+    "_comment6": "Sport & Other Activities Section",
+    "climbing_section": [
+        "<h3>Escalade</h3>",
+        "<p>L'escalade est une passion que je possède depuis plusieurs années.</p>",
+        "<p>Lors de ma première année à l'ENSEEIHT, j'ai pu suivre une formation pour devenir Initiateur SAE (Structure Artificielle d'Escalade).",
+        "L'initiateur SAE possède les compétences pour enseigner l'escalade et organiser sa pratique sur des structures artificielles d'escalade.",
+        "Grace à cette certification, j'ai la possibilité d'ouvrir et de superviser la salle d'escalade du gymnase du groupe INP pendant mon temps libre,",
+        "permettant ainsi aux étudiants de grimper en toute autonomie après les cours.</p>"
+    ],
+    "gaming_section": [
+        "<h3>Passion pour l'informatique et les jeux vidéo</h3>",
+        "<p>Au-delà de mes études, j'ai une véritable passion pour l'informatique et les jeux vidéo.",
+        "Durant l'été 2024, j'ai participé à la Game Jam GMTK 2024, où j'ai pu, avec des amis, développer un jeu vidéo",
+        "en seulement quatre jours en utilisant Unreal Engine 4.",
+        "Cette expérience a été à la fois stimulante et enrichissante, me permettant d'appliquer mes compétences en programmation de manière créative sous des contraintes de temps serrées.</p>",
+        "<p>Le jeu que nous avons créé s'appelle \"CutOut\", et il est disponible en ligne gratuitement.</p>"
+    ],
+    "play_cutout": "Jouer à CutOut",
+    "impro_section": [
+        "<h3>Théâtre d'improvisation</h3>",
+        "<p> Je suis également impliqué dans \"les !mprobables\", le club de théâtre d'improvisation de l'ENSEEIHT, ce qui a été une expérience incroyable pour moi.",
+        "Je suis notamment responsable de la gestion du budget du club et de l'organisation des événements en tant que trésorier de l'association.",
+        "Participer à ce club m'a aussi permis de développer mes compétences en communication, en travail d'équipe et en créativité, tout en me permettant de me détendre et de m'amuser en dehors de mes études.</p>"
+    ],
+
+    "_comment7": "Career Development Section",
+    "career_intro": [
+        "<p>Vous trouverez sur cette page mes expériences professionnelles.",
+        "N'hésitez pas à consulter mes CVs et à me contacter sur LinkedIn pour plus d'informations.</p>"
+    ],
+    "internships_intro": [
+        "<h3>Stages</h3>",
+        "<p>Cette section regroupera toutes mes expériences de stages.</p>"
+    ],
+    "internship_onera": [
+        "<h4>Stage à l'ONERA (Juin - Juillet 2025)</h4>",
+        "<p>Lors de ma première année à l'<strong>ENSEEIHT</strong>, j'ai effectué un stage à l'<a href=\"https://www.onera.fr\" target=\"_blank\">ONERA</a>.",
+        "Durant ce stage, j'ai travaillé sur l'évaluation de différentes formules de calcul dans des réseaux en temps réel dans le cadre d'informatique embarquée. </p>"
+    ],
+    "internship_irit": [
+        "<h4>Stage à l'IRIT (Mai - Juin 2024)</h4>",
+        "<p>Avant d'entrer à l'ENSEEIHT, durant ma dernière année à la Prépa des INP de Toulouse, j'ai effectué un stage à l'<a href=\"https://www.irit.fr\" target=\"_blank\">IRIT</a> (Institut de Recherche en Informatique de Toulouse). ",
+        "J'ai travaillé sur le développement d'un jeu interactif pour aider les enfants malvoyants à apprendre le braille.</p>",
+        "<p><a href=\"rapport.pdf\" class=\"btn\" download>Télécharger le rapport de stage</a></p>"
+    ]
+}
